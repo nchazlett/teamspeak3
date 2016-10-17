@@ -1,7 +1,7 @@
 # using latest Debian image
 FROM stackbrew/debian:jessie
 
-MAINTAINER Nick H.
+MAINTAINER Nick Hazlett
 
 # update Debian and install wget
 RUN apt-get update
